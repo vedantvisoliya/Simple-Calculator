@@ -137,7 +137,7 @@ int main()
         }
 
         try {
-            if (operation_button_equal.is_pressed(mouse_position, mouse_pressed) || IsKeyPressed(KEY_EQUAL))
+            if (operation_button_equal.is_pressed(mouse_position, mouse_pressed) || IsKeyPressed(KEY_ENTER))
             {
                 calculator.display.result();
             }
